@@ -3,8 +3,41 @@
     .menuStyle{
         display: flex;
         flex-direction: column;
+        justify-content: center;
     }
-    
+    .menuStyle li{
+        display:inline-block;
+        margin: 3px 0px;
+    }
+    .menuStyle li a{
+        font-size: 1em;
+        color: #000249;
+        background-color: white;
+        width: 80vh;
+        padding: 2px;
+    } 
+    .title p{
+        font-size: 0.7em;
+    }
+    .title h3{
+        font-size: 1.6em;
+    }
+    .title h1{
+        font-size: 2.3em;
+    }
+    .content{
+        height: 60vh;
+    }
+    .social i{
+        color:#000249 ;
+        margin: 0px 5px;
+        font-size: 1em;
+        padding: 7px 7px;
+        background-color: #656579;
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
